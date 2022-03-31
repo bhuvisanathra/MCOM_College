@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">incometax_calculator</string>
+    <string name="incometax_calculator">Incometax Calculator</string>
+    <string name="income">Income :-</string>
+    <string name="age">age :-</string>
+    <string name="hello">hello</string>
+    <string name="enter_amount">enter amount</string>
+    <string name="enter_age">enter age</string>
+    <string name="enter_hra">enter_HRA</string>
+    <string name="enter_80c_max_1_5_lakh">enter_80c (max_1_5_lakh)</string>
+    <string name="enter_others">enter_others</string>
+    <string name="enter_housing_interest">enter housing interest</string>
+    <string name="enter_standard_deductions">enter standard deductions</string>
+    <string name="enter_medical">enter_medical</string>
+    <string name="hra">HRA</string>
+    <string name="housing_interest">housing interest</string>
+    <string name="medical">medical</string>
+    <string name="standard_deductions">standard deductions</string>
+    <string name="calculating">calculating</string>
+    <string name="clear">ClearValue</string>
+    <string name="calculate">calculate</string>
+    <string name="deductiond">deductions</string>
+    <string name="enter_p_tax">enter p tax</string>
+    <string name="nps_u_s_80ccd_1b">NPS U/s 80CCD(1B)</string>
+    <string name="enter_interest_on_education_loan">enter interest on education loan</string>
+    <string name="education_loan_80e">education loan (80E)</string>
+    <string name="any_other_deductions">any other deductions</string>
+    <string name="others_deductions">others deductions</string>
+    <string name="enter_donation_amount">enter donation amount</string>
+    <string name="donation_u_s_80g">donation U/S (80G)</string>
+    <string name="enter_nps_max_50000">enter_NPS (max 50000)</string>
+    <string name="professional_tax">professional_tax</string>
+    <string name="deduction_u_s_80c">Deduction U/s 80c</string>
+    <string name="taxt">tax:-</string>
+    <string name="deduction">deduction:-</string>
+    <string name="total">total:-</string>
+
+
+</resources>

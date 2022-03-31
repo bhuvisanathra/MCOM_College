@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="App-Info"
+    android:id="@+id/emi_menu1"
+    />
+    <item android:title="Language"
+        android:id="@+id/emi_menu2"/>
+</menu>

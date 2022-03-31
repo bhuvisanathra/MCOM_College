@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullImageActivity">
+
+    <ImageView
+        android:id="@+id/fullImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/apply"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:padding="10dp"
+        android:text="Set Wallpaper"
+        android:textAllCaps="false"
+        app:backgroundTint="#653D3D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fullImage"
+        app:layout_constraintVertical_bias="0.912"
+        app:rippleColor="#518A5D5D" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/download_img"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:padding="10dp"
+        android:text="Download"
+        android:textAllCaps="false"
+        app:backgroundTint="#653D3D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fullImage"
+        app:layout_constraintVertical_bias="0.976"
+        app:rippleColor="#518A5D5D" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

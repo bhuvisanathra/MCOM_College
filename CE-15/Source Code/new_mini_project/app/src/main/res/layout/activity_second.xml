@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:padding="16dp"
+    tools:context=".secondActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/black"
+            android:text="Contact List"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="30dp">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/viewSavedData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/head"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:scrollbars="vertical"
+            android:text="Contact List"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Age Calculator</string>
+    <string name="TodaysDate">आज की तारीख</string>
+    <string name="YourDateofBirth">आपकी जन्म तिथी</string>
+    <string name="EnterDOB">जन्मतिथि दर्ज करें</string>
+    <string name="CALCULATE">की गणना</string>
+    <string name="TimeSpentonEarth">आपकी उम्र</string>
+    <string name="Years">वर्षों</string>
+    <string name="Days">दिन</string>
+    <string name="Months">महीने</string>
+    <string name="YourNextBirthdayIn..">में आपका अगला जन्मदिन..</string>
+    <string name="Day">दिन</string>
+    <string name="KnowinAdvanceyourNext5Birthdays">अपने अगले 5 जन्मदिनों के बारे में पहले से जानें</string>
+    <string name="year_month_days">वर्ष:- महीना:- दिन:-</string>
+</resources>

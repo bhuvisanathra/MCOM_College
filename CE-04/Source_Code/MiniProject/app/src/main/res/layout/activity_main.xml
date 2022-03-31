@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img4"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:width="150dp"
+        android:height="60dp"
+        android:backgroundTint="@color/LBlue"
+        android:text="@string/emi"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:width="150dp"
+        android:height="60dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/bmi"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/purple_500"
+        android:width="150dp"
+        android:height="60dp"
+        android:textSize="30dp"
+        android:text="@string/gst" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button3"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/orange"
+        android:width="300dp"
+        android:height="60dp"
+        android:textSize="30dp"
+        android:text="@string/calculator" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button4"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/Red"
+        android:width="300dp"
+        android:height="60dp"
+        android:textSize="30dp"
+        android:text="@string/feedback" />
+</RelativeLayout>

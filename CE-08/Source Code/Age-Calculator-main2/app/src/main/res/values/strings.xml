@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Age Calculator</string>
+    <string name="TodaysDate">"Today's Date"</string>
+    <string name="YourDateofBirth">"Your Date of Birth"</string>
+    <string name="EnterDOB">"Enter DOB"</string>
+    <string name="CALCULATE">"CALCULATE"</string>
+    <string name="TimeSpentonEarth">"Your Age"</string>
+    <string name="Years">"Years"</string>
+    <string name="Months">"Months"</string>
+    <string name="Days">"Days"</string>
+    <string name="YourNextBirthdayIn..">"Your Next Birthday In.."</string>
+    <string name="Day">"Day"</string>
+    <string name="KnowinAdvanceyourNext5Birthdays">Know in Advance your Next 5 Birthdays</string>
+    <string name="year_month_days">Year:- Month:- Days:-</string>
+
+</resources>
